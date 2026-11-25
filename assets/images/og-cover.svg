@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#111827"/>
+  <circle cx="1040" cy="120" r="260" fill="#26344d" opacity="0.75"/>
+  <rect x="70" y="70" width="670" height="490" rx="36" fill="#ffffff"/>
+  <text x="112" y="170" fill="#172033" font-family="Arial, sans-serif" font-size="52" font-weight="800">PDF MASTER</text>
+  <text x="112" y="320" fill="#172033" font-family="Arial, sans-serif" font-size="72" font-weight="800">Every PDF Tool.</text>
+  <text x="112" y="405" fill="#ff6b35" font-family="Arial, sans-serif" font-size="72" font-weight="800">One Place.</text>
+  <text x="112" y="485" fill="#758096" font-family="Arial, sans-serif" font-size="30">Private • Local • Offline-ready</text>
+  <rect x="815" y="155" width="290" height="320" rx="38" fill="#ff6b35"/>
+  <rect x="870" y="205" width="180" height="220" rx="22" fill="#ffffff"/>
+  <path d="M985 205v55h65" fill="none" stroke="#ffd4c5" stroke-width="10"/>
+  <path d="M905 290h110M905 330h110M905 370h82" fill="none" stroke="#ff6b35" stroke-width="12" stroke-linecap="round"/>
+</svg>

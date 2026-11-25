@@ -1,14 +1,28 @@
 {
+  "id": "/",
   "name": "PDF MASTER — Every PDF Tool. One Place.",
   "short_name": "PDF MASTER",
-  "description": "Private, local PDF tools that work offline.",
+  "description": "Private, offline-first PDF tools for merging, splitting, converting, editing and organizing documents.",
+  "lang": "en-IN",
+  "dir": "ltr",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
   "background_color": "#f5f7fb",
   "theme_color": "#111827",
-  "orientation": "portrait-primary",
+  "categories": ["productivity", "utilities"],
+  "prefer_related_applications": false,
   "icons": [
+    { "src": "/assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
     { "src": "/assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "PDF Workspace", "short_name": "Workspace", "url": "/#workspace", "icons": [{ "src": "/assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }] },
+    { "name": "All PDF Tools", "short_name": "Tools", "url": "/#tools", "icons": [{ "src": "/assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }] },
+    { "name": "My Cloud", "short_name": "Cloud", "url": "/#cloud", "icons": [{ "src": "/assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }] }
   ]
 }

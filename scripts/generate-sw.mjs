@@ -8,7 +8,13 @@ const output = path.join(root, "dist");
 const publicCopies = [
   ["manifest.json", "manifest.json"],
   ["offline.html", "offline.html"],
-  ["assets/icons/icon.svg", "assets/icons/icon.svg"]
+  ["robots.txt", "robots.txt"],
+  ["sitemap.xml", "sitemap.xml"],
+  ["assets/icons/icon.svg", "assets/icons/icon.svg"],
+  ["assets/icons/icon-192.png", "assets/icons/icon-192.png"],
+  ["assets/icons/icon-512.png", "assets/icons/icon-512.png"],
+  ["assets/images/og-cover.png", "assets/images/og-cover.png"],
+  ["assets/images/og-cover.svg", "assets/images/og-cover.svg"]
 ];
 
 for (const [source, destination] of publicCopies) {

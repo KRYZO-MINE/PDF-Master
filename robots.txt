@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kryzo-mine.github.io/PDF-Master/sitemap.xml
+Sitemap: https://pdf.kryzo.space/PDF-Master/sitemap.xml
